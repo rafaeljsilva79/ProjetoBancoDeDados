@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import com.fafica.conectaBD.ConectaBD;
+
 public class Tela extends JFrame {
 
 	private JPanel contentPane;
@@ -15,6 +17,9 @@ public class Tela extends JFrame {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		
+		//ConectaBD.AbriConexao();
+		//ConectaBD.StatusConexao();
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
